@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+*.yaml
+*.yml
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Model checkpoints
+checkpoints/
+pretrained_weights/
+
+# HuggingFace models
+bert-base-uncased/
+bert/
+
+# Cache
+.cache/
+.cache*
+.pytest_cache/
+
+# Backup files
+*.bak*
+*.bak_*
+*.backup
+
+# Data
+data/
+
+# Temporary
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+*.pre_s*
+*.bak_before*
+*.bak_e*
+experiments/
+E0_A2_smoke_size_metrics.json
